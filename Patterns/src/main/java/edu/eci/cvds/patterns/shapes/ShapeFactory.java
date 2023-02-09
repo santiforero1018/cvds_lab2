@@ -15,11 +15,11 @@ public class ShapeFactory {
                 break;
 
             case Hexagon:
-                resp = new Quadrilateral();
+                resp = new Hexagon();
                 break;
 
             case Pentagon:
-                resp = new Quadrilateral();
+                resp = new Pentagon();
                 break;
             
             default: resp = new Triangle();
